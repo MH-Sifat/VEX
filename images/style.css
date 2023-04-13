@@ -22,11 +22,11 @@ h2{
     font-size: 40px;
 }
 p{
-    font-size: 18px;
+    font-size: 28px;
   line-height: 25px;
   margin-bottom: 20px;
   color: #3b40458d;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Dongle', sans-serif;
 
 }
 a{
@@ -164,9 +164,12 @@ width: 55%;
  font-size: 28px;
  padding-bottom: 40px;
 }
-.product-container{
-    background-image: url("");
+.p-container{
+background-repeat: no-repeat;
+    
 }
 #product{
     padding: 50px;
+    width: 100%;
+    
 }
