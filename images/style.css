@@ -22,7 +22,7 @@ h2{
     font-size: 40px;
 }
 p{
-    font-size: 28px;
+    font-size: 20px;
   line-height: 25px;
   margin-bottom: 20px;
   color: #3b40458d;
@@ -165,11 +165,106 @@ width: 55%;
  padding-bottom: 40px;
 }
 .p-container{
-background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;
+  
+}
+.overlay{
+    background-color:rgba(0, 0, 0, 0.39);
+    padding: 100px;
 }
 #product{
     padding: 50px;
     width: 100%;
+    text-align: center;
+    color: #fff;
+    font: bold;
     
 }
+#product > .container > p{
+    color: #fff;
+  font-size: 18px;
+  padding-top: 20px;
+}
+#product >.container > form{
+position: relative;
+width: 60%;
+margin: 0 auto;
+}
+#product >.container > form > input{
+width: 100%;
+display: inline-block;
+height: 50px;
+border-radius: 30px;
+padding-left: 20px;
+font-size: 14px;
+border: none;
+outline: none;
+
+}
+#product >.container > form > button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    padding: 0 40px;
+    border: none;
+    font-size: 18px;
+    background-color:#f9a743;
+    color: #fff;
+
+}
+
+#review{
+    margin: 100px auto;
+}
+#review > h2{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+#review > .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    text-align: center;
+}
+#review > .container > .item >i {
+    font-size: 50px;
+    color:#f9a743;
+    padding-bottom: 30px;
+}
+#review > .container > .item >p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+#review > .container > .item > img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 25%;
+}
+footer{
+    background-color: #f4f4f4;
+    padding: 100px;
+    text-align: center;
+}
+.footer-container > .container >img{
+height: 50px;
+margin: 0 auto;
+display: block;
+margin-bottom: 40px;
+}
+footer > .container >.footerlinks {
+margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer > .container >.footerlinks >a{
+margin-right: 20px;
+}
+footer > .container >span{
+color: #3b404549;}
+
