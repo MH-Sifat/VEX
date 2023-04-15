@@ -311,3 +311,60 @@ padding-right: 10px;
     line-height: 30px;
     color: #3b404563;
 }
+#contact-form{
+    margin-top: 50px;
+    margin-bottom:100px ;
+}
+#contact-form > .content{
+  padding-left: 150px;
+}
+#contact-form > .content >h2{
+margin-bottom: 20px;
+font: bold;
+}
+#contact-form > .content >form >.input-container  {
+   display: flex;
+   
+}
+#contact-form > .content >form > .input-container >.name{
+    margin-right: 20px;
+} 
+#contact-form > .content >form > .input-container >.name>input  {
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-right: 100px;
+    outline: #f9a743;
+}
+#contact-form > .content >form > .input-container>.mail>input {
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-right: 100px;
+    outline: #f9a743;
+
+}
+
+#message{
+    margin-top: 20px;
+    width: 78%;
+    padding: 30px 30px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+
+}
+#contact-form > .content >form >button{
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 15px 40px;
+    display: inline-block;
+    background-color: #f9a743;
+    box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+margin-top: 20px;
+margin-left: 500px;
+}
