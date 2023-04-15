@@ -365,6 +365,122 @@ font: bold;
     display: inline-block;
     background-color: #f9a743;
     box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
-margin-top: 20px;
-margin-left: 500px;
+   margin-top: 20px;
+  margin-left: 500px;
+}
+#latest{
+    margin-top: 20px;
+}
+#latest >h2{
+   text-align: center;
+   font-weight: 300;
+   margin-bottom: 50px;
+}
+#latest >.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+#latest >.container> .left-side,
+#latest >.container> .right-side
+{
+    width: 48%;
+    padding-top: 10px;
+}
+#latest >.container> .left-side>img{
+margin-left: 60px;
+}
+#latest >.container> .right-side>a>h3{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#latest >.container> .right-side>p{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#chosse-right{
+    margin-top: 30px;
+}
+#chosse-right>.container{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#chosse-right>.container>.left-side,
+#chosse-right>.container>.right-side{
+    width: 45%;
+    align-items: center;
+}
+#chosse-right>.container> .left-side>a>h3{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#chosse-right>.container>.left-side>p{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#matters{
+    margin-top: 30px;
+}
+#matters>.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#matters.container>.left-side,
+#matters>.container>.right-side{
+    width: 48%;
+    align-items: center;
+}
+
+#matters>.container>.right-side>a>h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#matters>.container>.right-side>p{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#buy{
+    margin-top: 40px;
+    margin-bottom:50px;
+
+}
+#buy>.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding-bottom: 50px;
+}
+#buy>.container>.left-side,
+#buy>.container>.right-side{
+    width: 48%;
+    align-items: center;
+}
+#buy>.container>.left-side>a>h3{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 40px;   
+}
+#buy>.container>.left-side>p{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.readme{
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 15px 30px;
+    display: inline-block;
+    background-color: #f9a743;
+    box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
+    margin-top: 15px;
 }
