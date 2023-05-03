@@ -484,3 +484,126 @@ padding-bottom: 50px;
     box-shadow: 0 15px 40px rgba(249, 167, 68, 0.5);
     margin-top: 15px;
 }
+
+/*responsive css work*/
+
+
+@media only screen and (max-width: 480px){
+  
+    #header>.container{
+        display: inline-block;
+    }    
+
+    #header>.container>.left{
+        margin: auto;
+    }
+
+    #header>.container>.right{
+        padding-top: 50px;
+        margin: auto;
+    }
+
+   #header>.container>.right>h1{
+          padding: 10px 0;
+          font-size: 40px;
+          text-align: center;
+          
+          }
+
+    #header>.container>.right>p{
+         text-align: center;
+ 
+        }   
+  
+    #header>.container>.right>button{
+         padding: 18px 22px;
+         font-size: 18px;
+         align-items: center;
+        
+            }
+
+     #feature{
+        margin-top: 0;
+        padding-top: 0;
+            }
+    
+     #feature > .container{
+        display: inline-block;
+
+    }
+    .container > .colum {
+        margin: 0 60px;
+     
+    }
+    .container > .colum >img{
+        width: 80%;
+       margin: 60px 50px ;
+    }
+    .container > .colum >.item > i{
+        font-size: 20px; 
+        text-align: center;
+        display: block;
+            }
+    .container > .colum >.item >h3{
+        font-size: 20px;
+        
+            }
+    .container > .colum >.item >h3,p{
+        text-align: center;
+
+    }
+
+  
+    #design > .container{
+        display: inline-block;
+        
+             }
+     #design > .container > .left-side{
+         width: 100%;
+         text-align: center;
+         margin: 50px 0;
+             }
+    #design > .container > .right-side{
+        text-align: center;
+         width: 100%;
+             }
+             
+    #apple{
+             margin: 100px auto;
+            }
+    #apple > h2{
+        margin-bottom: 50px;
+            }
+    
+    .apple1,.apple2{
+        display: inline-block;
+         padding-top: 20px;
+        margin-bottom: 40px;
+                         
+            }
+    .apple1 > img,
+    .apple2 > img{
+        width: 80%;
+        margin: 10px 50px;
+          }
+    .apple1 > div,
+    .apple2 > div{
+            width: 100%;
+            }
+    .apple1 > div > h3,
+    .apple2 > div >h3{
+        font-size: 28px;
+        padding:  40px 0;
+        text-align: center;
+            }      
+    .apple2 > img{
+        display: none;
+    }
+    
+    .apple2 >.content::before {
+        content:  url(showcase/showcase-3.png);
+        width: 80%;
+        margin: 10px 50px;    
+    }
+
+}
