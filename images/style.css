@@ -490,9 +490,17 @@ padding-bottom: 50px;
 
 @media only screen and (max-width: 480px){
   
+    
+
+    .full-container{
+        margin: 0 auto;
+       max-width: 520px;
+
+    }
+
     #header>.container{
-        display: inline-block;
-    }    
+        flex-direction: column;  
+  }    
 
     #header>.container>.left{
         margin: auto;
@@ -528,8 +536,7 @@ padding-bottom: 50px;
             }
     
      #feature > .container{
-        display: inline-block;
-
+   grid-template-columns: auto;
     }
     .container > .colum {
         margin: 0 60px;
@@ -555,12 +562,11 @@ padding-bottom: 50px;
 
   
     #design > .container{
-        display: inline-block;
-        
+        flex-direction: column;
              }
      #design > .container > .left-side{
-         width: 100%;
-         text-align: center;
+        width: 100%;
+        text-align: center;
          margin: 50px 0;
              }
     #design > .container > .right-side{
@@ -576,7 +582,7 @@ padding-bottom: 50px;
             }
     
     .apple1,.apple2{
-        display: inline-block;
+        flex-direction: column;
          padding-top: 20px;
         margin-bottom: 40px;
                          
@@ -597,13 +603,82 @@ padding-bottom: 50px;
         text-align: center;
             }      
     .apple2 > img{
-        display: none;
+      display: none;
     }
     
     .apple2 >.content::before {
         content:  url(showcase/showcase-3.png);
         width: 80%;
-        margin: 10px 50px;    
+        margin: 0 auto;    
+        max-width: 450px;
+        box-sizing: border-box;
+        
     }
 
+
+
+#product{
+    padding: 0px;
+    color: #fff;
+    font: bold;
+
+    
+}
+#product > .container > h2{
+    font-size: 40px;
+  
+}
+#product > .container > p{
+    color: #fff;
+  font-size: 22px;
+  padding-top: 10px;
+  
+}
+#product >.container > form{
+    position: relative;
+    width: 120%;
+    margin: 0 auto;
+    }
+#product >.container > form > input{
+    width: 100%;
+    display: inline-block;
+    height: 35px;   
+    padding-left: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    
+    }
+#product >.container > form > button{
+    height: 35px;;
+    padding: 0 10px;
+    font-size: 14px;
+    
+    
+    }
+
+#review > h2{
+    padding-bottom: 20px;
+    }
+#review > .container{
+    grid-template-columns: auto;
+    gap: 40px;
+    
+    }
+
+#review > .container > .item >p {
+    margin-bottom: 40px;
+    font-size: 20px;
+    }
+
+   
+    footer > .container >.footerlinks {
+    margin: 0 auto;
+        margin-bottom: 20px;
+        width: 60%;
+    }
+    footer > .container >.footerlinks >a{
+    margin-right: 10px;
+    line-height: 30px;
+    }
+   
 }
